@@ -1,4 +1,4 @@
 # user-registration
-Este proyecto se inicia abriendo 2 terminales distintas, una se debe situar en el directorio user-registration-frontend, y la otra en user-registration-backend. Ambas deben ser iniciadas ocn el comando "npm run dev"
+Este proyecto se inicia abriendo 2 terminales distintas, una se debe situar en el directorio user-registration-frontend, y la otra en user-registration-backend. Ambas deben ser iniciadas ocn el comando "npm run dev". Luego, se debe crear un archivo .env en la raíz del directorio user-registration-frontend, y agregar una variable de entorno llamada VITE_BACKEND_URL=<url del backend>, a la que asignaremos el url que se proporciona al ejecutar "npm run dev" en la carpeta del backend (si se está abriendo el proyecto localmente, solo se debe colocar el localhost:3001), con el "/" al final incluido.
 
-El proyecto es capaz de registrar usuarios y listarlos agregándolos en una base de datos de MongoDB. Utiliza Vite junto a React para el frontend y Node.js y Express para el backend.
+La apliación es capaz de registrar usuarios y listarlos agregándolos en una base de datos de MongoDB. Utiliza Vite junto a React para el frontend y Node.js y Express para el backend.
